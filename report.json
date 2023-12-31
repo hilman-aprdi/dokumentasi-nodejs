@@ -1,0 +1,435 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "report.json",
+    "dumpEventTime": "2023-12-30T23:04:44Z",
+    "dumpEventTimeStamp": "1703952284966",
+    "processId": 9458,
+    "threadId": 0,
+    "cwd": "/data/data/com.termux/files/home/belajar-nodejs",
+    "commandLine": [
+      "node",
+      "report.mjs"
+    ],
+    "nodejsVersion": "v20.2.0",
+    "wordSize": 64,
+    "arch": "arm64",
+    "platform": "android",
+    "componentVersions": {
+      "acorn": "8.8.2",
+      "ada": "2.4.0",
+      "ares": "1.19.0",
+      "base64": "0.5.0",
+      "brotli": "1.0.9",
+      "cjs_module_lexer": "1.2.2",
+      "cldr": "43.1",
+      "icu": "73.1",
+      "llhttp": "8.1.0",
+      "modules": "115",
+      "napi": "8",
+      "nghttp2": "1.52.0",
+      "node": "20.2.0",
+      "openssl": "3.1.1",
+      "simdutf": "3.2.9",
+      "tz": "2023c",
+      "undici": "5.22.0",
+      "unicode": "15.0",
+      "uv": "1.44.2",
+      "uvwasi": "0.0.16",
+      "v8": "11.3.244.8-node.9",
+      "zlib": "1.2.13"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v20.2.0/node-v20.2.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v20.2.0/node-v20.2.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "4.4.22+",
+    "osVersion": "#4 SMP PREEMPT Tue Jun 4 01:51:09 CST 2019",
+    "osMachine": "aarch64",
+    "cpus": [
+      {
+        "model": "AArch64 Processor rev 4 (aarch64)",
+        "speed": 806,
+        "user": 8991280,
+        "nice": 1588830,
+        "sys": 6465860,
+        "idle": 53898120,
+        "irq": 0
+      },
+      {
+        "model": "Cortex-A53",
+        "speed": 806,
+        "user": 8824740,
+        "nice": 1616340,
+        "sys": 5497360,
+        "idle": 54708550,
+        "irq": 0
+      },
+      {
+        "model": "AArch64 Processor rev 4 (aarch64)",
+        "speed": 806,
+        "user": 8085860,
+        "nice": 1477260,
+        "sys": 4967940,
+        "idle": 56314540,
+        "irq": 0
+      },
+      {
+        "model": "Cortex-A53",
+        "speed": 806,
+        "user": 7620660,
+        "nice": 1375010,
+        "sys": 4649040,
+        "idle": 57370760,
+        "irq": 0
+      },
+      {
+        "model": "AArch64 Processor rev 4 (aarch64)",
+        "speed": 2340,
+        "user": 7448680,
+        "nice": 626100,
+        "sys": 3552420,
+        "idle": 60443120,
+        "irq": 0
+      },
+      {
+        "model": "Cortex-A53",
+        "speed": 2340,
+        "user": 6001030,
+        "nice": 595310,
+        "sys": 2998120,
+        "idle": 62445920,
+        "irq": 0
+      },
+      {
+        "model": "AArch64 Processor rev 4 (aarch64)",
+        "speed": 2340,
+        "user": 5405680,
+        "nice": 624970,
+        "sys": 2878470,
+        "idle": 63119520,
+        "irq": 0
+      },
+      {
+        "model": "Cortex-A53",
+        "speed": 2340,
+        "user": 4276840,
+        "nice": 558860,
+        "sys": 2631850,
+        "idle": 64882380,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "wlan0",
+        "internal": false,
+        "mac": "00:08:22:88:36:e3",
+        "address": "fe80::208:22ff:fe88:36e3",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 62
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlan0",
+        "internal": false,
+        "mac": "00:08:22:88:36:e3",
+        "address": "192.168.1.14",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "localhost"
+  },
+  "javascriptStack": {
+    "message": "Error: ups...",
+    "stack": [
+      "at sampleErr (file:///data/data/com.termux/files/home/belajar-nodejs/report.mjs:8:9)",
+      "at file:///data/data/com.termux/files/home/belajar-nodejs/report.mjs:11:1"
+    ],
+    "errorProperties": {
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 7942144,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 6057984,
+    "availableMemory": 1012094856,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2528,
+    "usedMemory": 4118848,
+    "memoryLimit": 1016332288,
+    "mallocedMemory": 262296,
+    "externalMemory": 1552263,
+    "peakMallocedMemory": 462848,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 4194304,
+        "committedMemory": 2129920,
+        "capacity": 2061760,
+        "used": 712320,
+        "available": 1349440
+      },
+      "old_space": {
+        "memorySize": 3215360,
+        "committedMemory": 3407872,
+        "capacity": 3156744,
+        "used": 2898624,
+        "available": 258120
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 249856,
+        "capacity": 245744,
+        "used": 245744,
+        "available": 0
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 2097152,
+        "used": 0,
+        "available": 2097152
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+  ],
+  "resourceUsage": {
+    "free_memory": 869351424,
+    "total_memory": 3964583936,
+    "rss": 36679680,
+    "available_memory": 869351424,
+    "userCpuSeconds": 0.976,
+    "kernelCpuSeconds": 0.028,
+    "cpuConsumptionPercent": 100.4,
+    "userCpuConsumptionPercent": 97.6,
+    "kernelCpuConsumptionPercent": 2.8,
+    "maxRss": 36679680,
+    "pageFaults": {
+      "IORequired": 9,
+      "IONotRequired": 3627
+    },
+    "fsActivity": {
+      "reads": 2072,
+      "writes": 8
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.96,
+    "kernelCpuSeconds": 0.028,
+    "cpuConsumptionPercent": 98.8,
+    "userCpuConsumptionPercent": 96,
+    "kernelCpuConsumptionPercent": 2.8,
+    "fsActivity": {
+      "reads": 2072,
+      "writes": 8
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7cadf980"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000058ba90afc0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x0000007a7ca160d0",
+      "repeat": 0,
+      "firesInMsFromNow": -72896097,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7ca16168"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000007a7ca161e0"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7ca16258"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7ca162d0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7ca16348"
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7ca31f88",
+      "repeat": 0,
+      "firesInMsFromNow": 8086,
+      "expired": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000007a7ca395a0",
+      "width": 74,
+      "height": 20,
+      "fd": 17,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000007a7cb90f58",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000007a7ca39760",
+      "width": 74,
+      "height": 20,
+      "fd": 19,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000007a7ca39920",
+      "width": 74,
+      "height": 20,
+      "fd": 20,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x00000058ba916d80",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "VIM": "/data/data/com.termux/files/usr/share/nvim",
+    "LANG": "en_US.UTF-8",
+    "LESS": "-R",
+    "_P9K_SSH_TTY": "/dev/pts/34",
+    "HOME": "/data/data/com.termux/files/home",
+    "ANDROID_DATA": "/data",
+    "_P9K_TTY": "/dev/pts/34",
+    "P9K_TTY": "old",
+    "NVIM_LOG_FILE": "/data/data/com.termux/files/home/.local/state/nvim/log",
+    "LD_PRELOAD": "/data/data/com.termux/files/usr/lib/libtermux-exec.so",
+    "SHELL": "/data/data/com.termux/files/usr/bin/zsh",
+    "ZSH": "/data/data/com.termux/files/home/.oh-my-zsh",
+    "LOGNAME": "u0_a155",
+    "VIMRUNTIME": "/data/data/com.termux/files/usr/share/nvim/runtime",
+    "PREFIX": "/data/data/com.termux/files/usr",
+    "NVIM": "/data/data/com.termux/files/usr/tmp/nvim.10155/5GFhjO/nvim.602.0",
+    "EXTERNAL_STORAGE": "/sdcard",
+    "ANDROID_ROOT": "/system",
+    "PATH": "/data/data/com.termux/files/home/.local/share/nvim/mason/bin:/data/data/com.termux/files/usr/bin",
+    "TERMUX_VERSION": "0.117",
+    "MYVIMRC": "/data/data/com.termux/files/home/.config/nvim/init.lua",
+    "TERMUX_MAIN_PACKAGE_FORMAT": "debian",
+    "OLDPWD": "/data/data/com.termux/files/home/belajar-nodejs",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "JAVA_HOME": "/data/data/com.termux/files/usr/opt/openjdk",
+    "PWD": "/data/data/com.termux/files/home/belajar-nodejs",
+    "TERM": "xterm-256color",
+    "PAGER": "less",
+    "SHLVL": "2",
+    "TMPDIR": "/data/data/com.termux/files/usr/tmp",
+    "COLORTERM": "truecolor",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cg

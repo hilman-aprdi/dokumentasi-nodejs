@@ -1,0 +1,8 @@
+Hellow World
+Hello NodeJS
+┌───────────┬───────────┐
+│  (index)  │  Values   │
+├───────────┼───────────┤
+│ fisrtName │ 'Hilman'  │
+│ lastName  │ 'Apriadi' │
+└───────────┴───────────┘
